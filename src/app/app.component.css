@@ -1,0 +1,26 @@
+nav{
+    background-color: rgb(90, 76, 141);
+    padding: 10px;
+    text-align: center;
+    height: 20px;
+    transition-duration: 0.1s;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav:hover{
+    height: 30px;
+}
+
+a{
+    padding: 0px 20px 0px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.3s;
+}
+
+a:hover{
+    font-size: 30px;
+}
