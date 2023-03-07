@@ -9,7 +9,7 @@
 }
 
 #main{
-    border: 4px solid cadetblue;
+    border: 4px solid rgb(106, 65, 119);;
     border-radius: 20px;
     width: 400px;
     margin: auto;
@@ -19,7 +19,7 @@
 }
 
 #tagline{
-    background-color: cadetblue;
+    background-color: rgb(106, 65, 119);;
     border-radius: 20px;
     margin: auto;
     padding: 10px;

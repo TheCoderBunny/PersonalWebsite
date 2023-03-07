@@ -4,3 +4,7 @@
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+background-color: rgb(36, 36, 36);
+}
+@import '~@angular/material/prebuilt-themes/purple-green.css';

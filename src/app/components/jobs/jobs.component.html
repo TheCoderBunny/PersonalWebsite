@@ -1,9 +1,24 @@
 <div id="main">
     <h1>Current and Past Work</h1>
-    <ul>
+    <!-- <ul>
         <button class="job" *ngFor="let j of jobList" [routerLink] = "['/job-details', j.id]">
             {{j.title}}
         </button>
-    </ul>
+    </ul> -->
     <br>
+
+    <div *ngFor="let j of jobList">
+      <br>
+        <mat-card class="example-card">
+          <mat-card-header>
+            <mat-card-title>{{j.title}}</mat-card-title>
+            <mat-card-subtitle>{{j.employer}}, {{j.duration}}</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p>
+              {{j.description}}
+            </p>
+          </mat-card-content>
+        </mat-card>
+    </div>
 </div>
